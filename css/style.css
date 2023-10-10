@@ -236,6 +236,9 @@ nav [class*="fa-"]:hover {
 
 .about_me {
  padding: 30px;
+ display: flex;
+ flex-direction: column;
+align-items: center;
 }
 
 .list_studies{
@@ -258,6 +261,16 @@ padding: 5px 0px;
   width: 100%;
   height: 100%;
   padding: 3px 0px;
+}
+
+.article {
+  padding: 20px 0px;
+ 
+}
+
+.personal_photo {
+  width: 160px;
+  height: 160px;
 }
 
 /* footer section */
