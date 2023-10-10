@@ -109,12 +109,11 @@ img {
 /* contact section */
 
 #contact {
-  width: 400px;
+ 
   text-align: center;
   margin: 0 auto;
   padding: 4rem 0;
-  display: flex;
-  flex-wrap: wrap;
+ 
 }
 
 #contact p:last-child {
@@ -235,8 +234,35 @@ nav [class*="fa-"]:hover {
   border-radius: 25px;
 }
 
+.about_me {
+ padding: 30px;
+}
+
+.list_studies{
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+
+.list_studies li {
+padding: 5px 0px;
+}
+
+.list_work_container{
+  padding-right: 1px;
+}
+
+.list_work li{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 3px 0px;
+}
 
 /* footer section */
+
+
 
 footer {
   text-align: center;
