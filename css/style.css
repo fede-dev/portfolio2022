@@ -8,14 +8,11 @@
   --magenta: #e310cb;
   --aqua: #86fbfb;
   --white: #f7f8fa;
-  --font-size: 1.3rem;
+  /* --font-size: 1.3rem; */
   --mono: "Oxygen mono", monospace;
   --sans: Oxygen, sans-serif;
 }
-
-
 /* border box model: https://css-tricks.com/box-sizing/ */
-
 html {
   box-sizing: border-box;
 }
@@ -25,8 +22,6 @@ html {
 *::after {
   box-sizing: inherit;
 }
-
-
 /* generic styles for the page */
 
 body {
@@ -78,46 +73,47 @@ img {
 
 #intro {
   padding: 4rem 1rem 10rem 1rem;
-  padding-bottom: 10rem;
+
   max-width: 1200px;
   margin: 0 auto;
 }
 
 #intro p {
-  font-size: 1rem;
-  line-height: 1.5;
+ 
 }
 
 #intro .name {
-  font-family: var(--mono);
-  font-size: 1rem;
+ 
 }
 
 .name span {
   font-family: var(--sans);
-  font-size: 4rem;
+  font-size: 2rem;
   color: var(--aqua);
   display: block;
   font-weight: 300;
 }
 
 #intro h2 {
-  font-size: 4rem;
+ 
 }
-
-
 /* contact section */
 
+.about_me_section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 #contact {
- 
   text-align: center;
   margin: 0 auto;
-  padding: 4rem 0;
- 
+  padding: 0.5rem 0;
 }
 
 #contact p:last-child {
-  margin-top: 3rem;
+  margin-top: 0rem;
 }
 
 
@@ -188,12 +184,12 @@ nav [class*="fa-"]:hover {
 /* projects section */
 
 #projects {
-  padding: 4rem 1rem;
+  padding: 3rem 1rem;
 }
 
 #projects h2 {
   font-size: 2.5rem;
-  margin-bottom: calc(2.5rem * 1.5);
+   margin-bottom: 1rem
 }
 
 #projects h3 {
@@ -207,12 +203,12 @@ nav [class*="fa-"]:hover {
 }
 
 .blackbox {
-  padding: 1rem;
-  border-radius: 10px;
+  /* padding: 1rem; */
+  /* border-radius: 10px; */
   color: white;
-  background-color: var(--black);
-  font-size: 1rem;
-  line-height: 1.5;
+  /* background-color: var(--black); */
+  /* font-size: 1rem; */
+  /* line-height: 1.5; */
 }
 
 #projects ul {
@@ -235,7 +231,7 @@ nav [class*="fa-"]:hover {
 }
 
 .about_me {
- padding: 30px;
+ padding: 0px;
  display: flex;
  flex-direction: column;
 align-items: center;
@@ -245,10 +241,11 @@ align-items: center;
   list-style:none;
   margin: 0;
   padding: 0;
+
 }
 
 .list_studies li {
-padding: 5px 0px;
+  display: flex;
 }
 
 .list_work_container{
@@ -264,7 +261,7 @@ padding: 5px 0px;
 }
 
 .article {
-  padding: 20px 0px;
+  padding: 0px 0px;
  
 }
 
@@ -273,13 +270,18 @@ padding: 5px 0px;
   height: 160px;
 }
 
+.text{
+  padding: 15px 0px;
+}
+
 /* footer section */
 
-
-
 footer {
+  display: flex;
   text-align: center;
-  padding: 4rem 0;
+  align-items: center;
+  justify-content: center;
+
 }
 
 footer ul {
@@ -311,6 +313,7 @@ footer ul {
       grid-row: 1/2;
       order: 2;
       text-align: right;
+  padding: 15px 0px;
   }
   #projects ul {
       justify-content: flex-end;
