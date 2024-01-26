@@ -73,9 +73,10 @@ img {
 
 #intro {
   padding: 4rem 1rem 10rem 1rem;
-
   max-width: 1200px;
   margin: 0 auto;
+  /* background-image: url(/assets/public/1.png); */
+ 
 }
 
 #intro p {
@@ -91,7 +92,7 @@ img {
   font-size: 2rem;
   color: var(--aqua);
   display: block;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 #intro h2 {
@@ -203,12 +204,12 @@ nav [class*="fa-"]:hover {
 }
 
 .blackbox {
-  /* padding: 1rem; */
-  /* border-radius: 10px; */
+  padding: 1rem; 
+  border-radius: 10px;
   color: white;
-  /* background-color: var(--black); */
-  /* font-size: 1rem; */
-  /* line-height: 1.5; */
+  background-color: var(--black); 
+  font-size: 1rem;
+  
 }
 
 #projects ul {
@@ -249,7 +250,7 @@ align-items: center;
 }
 
 .list_work_container{
-  padding-right: 1px;
+
 }
 
 .list_work li{
