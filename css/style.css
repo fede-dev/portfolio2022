@@ -53,6 +53,9 @@ img {
 }
 
 
+.main_text{
+  
+}
 /* background color divs */
 
 .section-plum {
@@ -84,7 +87,7 @@ img {
 }
 
 #intro .name {
- 
+
 }
 
 .name span {
@@ -184,6 +187,14 @@ nav [class*="fa-"]:hover {
 
 /* projects section */
 
+.padding{
+  padding: 30px 0px;
+}
+
+.padding_txt{
+  padding: 5px 0px;
+}
+
 #projects {
   padding: 3rem 1rem;
 }
@@ -273,6 +284,14 @@ align-items: center;
 
 .text{
   padding: 15px 0px;
+  
+}
+
+.work_study{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* footer section */
